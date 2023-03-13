@@ -51,5 +51,27 @@ header {
     border-radius: 8px;
     color: white;
     background-color: black;
-    font-size: 15;
 }
+
+.titre_des_abonnements {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+table {
+    margin: 12px;
+}
+
+table , th, td {
+    border: 1px solid black;
+    width: 350px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+thead , tfoot {
+    background-color: #4f5d75;
+    color: white;
+}
+
