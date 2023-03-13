@@ -81,9 +81,10 @@ thead , tfoot {
 
 .article_du_blog {
     margin-left: 60px ;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     width: 250px;
-    height: 260;
+    height: 185px;
     text-align: center;
     box-shadow: 1px 6px 22px 15px rgba(0,0,0,0.22);
 }
