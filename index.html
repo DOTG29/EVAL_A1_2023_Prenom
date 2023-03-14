@@ -95,8 +95,48 @@
           <label for="age">18-19</label>
         </div>
       </fieldset>
+      <div class="prenom">
+        <label for="prenom">nom :</label>
+        <input type="text" name="name" placeholder="entrée votre prenom ici">
+      </div>
+      <div class="email">
+        <label for="email">email :</label>
+        <input type="email" name="name" pattern=".+@globex\.com"  placeholder="Edenschool@example.com">
+      </div>
+      <h2>VOTRE JEU PREFERE</h2>
+      <div class="console">
+        <label for="jeu">Choisissez une console :</label>
+        <select name="jeu" >
+          <option value="">--Choisissez une console--</option>
+          <option value="pc">PC</option>
+          <option value="xbox">XBOX</option>
+          <option value="ps5">PS5</option>
+          <option value="switch">SWITCH</option>
+          <option value="nitendo">NITENDO</option>
+        </select>
+      </div>
+      <div>
+        <div class="jeux">
+          <label for="jeu">Choisissez un jeu :</label>
+          <select name="jeu" >
+            <option value="">--Choisissez un jeu--</option>
+            <option value="gta5">GTA5</option>
+            <option value="fortnite">FORTNITE</option>
+            <option value="mincraft">MINCRAFT</option>
+          </select>
+      </div>
 
-
+      <h2>VOTRE MESSAGE</h2>
+      <div class="message">
+        <input type="text" name="text" placeholder="Saisissez votre message ici" >
+      </div>
+      <div class="cryptage">
+        <label for="prenom">cryptage du massage :</label>
+        <input type="password" name="name">
+      </div>
+      <div class="envoi_message">
+        <button>Envoyer votre message</button>
+      </div>
     </footer>
     <script src="app.js" type="module"></script>
   </body>

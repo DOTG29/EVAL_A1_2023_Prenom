@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 header {
     display: flex;
 }
@@ -75,13 +80,12 @@ thead , tfoot {
     color: white;
 }
 
-
 .titre_du_blog {
     text-align: center;
 }
 
 .article_du_blog {
-    margin-left: 60px ;
+    margin-left: 17% ;
     margin-top: 15px;
     margin-bottom: 30px;
     width: 250px;
@@ -94,4 +98,131 @@ thead , tfoot {
     width: 100%;
     height: 50px;
     object-fit: cover;
+}
+
+footer{
+    background-color: #4f5d75;
+    height: 700px;
+    width: 100%;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+footer h2 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+footer fieldset {
+    width:86%;
+    border: 1px solid white;
+    margin: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer fieldset legend {
+    margin-left: 30px;
+}
+
+footer fieldset div {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.prenom {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.email {
+    text-align: center;
+    color: white;
+}
+
+.prenom input {
+    border-radius: 7px;
+    border: 2px solid #bfc0c0;
+}
+
+.email input {
+    border-radius: 7px;
+    border: 2px solid #bfc0c0;
+}
+
+.console {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.console input {
+    border-radius: 7px;
+    border: 2px solid #bfc0c0;
+}
+
+.jeux {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.jeux input {
+    border-radius: 7px;
+    border: 2px solid #bfc0c0;
+}
+
+.message {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.message input {
+    width: 60%;
+    height: 100px;
+    border-radius: 7px;
+    border: 2px solid #bfc0c0;
+}
+
+.cryptage {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.cryptage input {
+    border-radius: 7px;
+    border: 2px solid #bfc0c0;
+}
+
+.envoi_message {
+    text-align: center;
+    margin-top: 30px ;
+}
+
+.envoi_message button {
+    height: 28px;
+    width: 160px;
+    border: 1px solid #bfc0c0;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
 }
